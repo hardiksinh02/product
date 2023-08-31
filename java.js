@@ -36,5 +36,6 @@ function calculatetip() {
 
     document.querySelector('#total').innerHTML = "$ " + sum;
     console.log(sum);
+    console.log(services);
     alert(sum);
 }
