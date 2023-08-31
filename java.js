@@ -35,4 +35,5 @@ function calculatetip() {
     sum = sum.toFixed(2)
 
     document.querySelector('#total').innerHTML = "$ " + sum;
+    console.log(sum);
 }
